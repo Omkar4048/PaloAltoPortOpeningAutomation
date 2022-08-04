@@ -12,16 +12,16 @@ Flow:
 8. Script will give success status to Orchestration and finally forwarded it to the ticketing tool.
 
 File Description:
-final.py		This is main script which will run from orchestration.
-multipleinput.py	First all arguments will be handled in this script.
-panobjects.py		This script will be triggered to check all required objects are present or not.
-create_pre_rule.py	This script is to create final rule once we meet all prerequisite.
-paloalto.py		This script is to commit rule to device and create routes
-checkipadd.py		This script is to convert given string input to IP format and validate
-routecheck.py		This script is to check given IP is already present in list. if not it will create IP Route.
-AutomationVer2.py			This script is Version 2 of Our Projects simplified by OK.
-config.py		This is secret file do not touch it.
-create_pre_rule_ver2.py This is version2 of Prerule create file in simplified manner by OK.
+1. final.py		This is main script which will run from orchestration.
+2. multipleinput.py	First all arguments will be handled in this script.
+3. panobjects.py		This script will be triggered to check all required objects are present or not.
+4. create_pre_rule.py	This script is to create final rule once we meet all prerequisite.
+5. paloalto.py		This script is to commit rule to device and create routes
+6. checkipadd.py		This script is to convert given string input to IP format and validate
+7. routecheck.py		This script is to check given IP is already present in list. if not it will create IP Route.
+8. AutomationVer2.py			This script is Version 2 of Our Projects simplified by OK.
+9. config.py		This is secret file do not touch it.
+10. create_pre_rule_ver2.py This is version2 of Prerule create file in simplified manner by OK.
 
 Other Files:
 dump.csv		This is dump of all routes present.
