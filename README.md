@@ -5,10 +5,10 @@ Flow:
 1. User will log ticket on ticketing tool.
 2. After all approvals it will hit Orchastration tool.
 3. Orchastration tool will trigger AutomationVer2.py script with all required details.
-4_1. Script will first check all parameters are valid or not.
-4_2. Then it will check for all objects are created or not. If not present it will call API to Create respective Object(ex. Address, Schedule Object).
-4_3. It will check for routes. if not present it will create route for given IPs.
-4_4. Finally it will call API to create Rule on Panaroma and then push it on Palo Alto Device.
+4.1. Script will first check all parameters are valid or not.
+4.2. Then it will check for all objects are created or not. If not present it will call API to Create respective Object(ex. Address, Schedule Object).
+4.3. It will check for routes. if not present it will create route for given IPs.
+4.4. Finally it will call API to create Rule on Panaroma and then push it on Palo Alto Device.
 5. Script will give success status to Orchestration and finally forwarded it to the ticketing tool.
 
 File Description:
