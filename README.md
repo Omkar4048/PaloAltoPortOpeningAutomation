@@ -1,5 +1,5 @@
 # PaloAltoPortOpeningAutomation
-This is Automation Project to Automate task of Creating Port Opening Rule On Panaroma and then push to Palo Alto device once user log SN request.
+This is Automation Project to Automate task of Creating Port Opening Rule On Panaroma and then push to Palo Alto device once user log request with required parameter.
 
 Flow:
 1. User will log ticket on ticketing tool.
